@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize.git"
+    "url": "git+https://github.com/sequelize/sequelize.git"
   },
   "bugs": {
     "url": "https://github.com/sequelize/sequelize/issues"
@@ -186,5 +186,10 @@
     "sscce-mssql": "cross-env DIALECT=mssql npm run sscce",
     "setup-mssql": "env-cmd $npm_package_options_env_cmd ./scripts/setup-mssql",
     "semantic-release": "semantic-release"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "author": "Aishwarya Vaibhav"
 }
